@@ -1,22 +1,19 @@
 {
-  // nombre de esta configuracion
-  "name": "Codespace for skills!",
-  // usar la imagen de un codespace base
-  "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
-
-  "remoteUser": "codespace",
-  "overrideCommand": false,
-  // Add the IDs of extensions you want installed when the container is created.
-  "customizations": {
-      "vscode": {
-          "extensions": [
-              "GitHub.copilot"
-          ]
-      },
-      "codespaces": {
-          "openFiles": [
-              "codespace.md"
-          ]
-      }
-   }
+	"name": "Mi Codespace Para Practicar",
+	"image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
+	"remoteUser": "codespace" ,
+	"overrideCommand": false,
+	
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"GitHub.copilot"
+			]
+		},
+		"codespaces": {
+			"openFiles": [
+				"codespaces.md"
+			]
+		}
+	}
 }
