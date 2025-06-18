@@ -3,7 +3,6 @@
 	"image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
 	"remoteUser": "vscode",
 	"overrideCommand": false,
-	
 	"customizations": {
 		"vscode": {
 			"extensions": [
@@ -12,7 +11,7 @@
 		},
 		"codespaces": {
 			"openFiles": [
-				"codespaces.md"
+				"codespace.md"
 			]
 		}
 	}
