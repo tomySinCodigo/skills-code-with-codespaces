@@ -1,7 +1,7 @@
 {
 	"name": "Mi Codespace Para Practicar",
 	"image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
-	"remoteUser": "vscode",
+	"remoteUser": "codespace",
 	"overrideCommand": false,
 	"customizations": {
 		"vscode": {
